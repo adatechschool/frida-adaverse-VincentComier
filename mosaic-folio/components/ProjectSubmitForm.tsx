@@ -99,7 +99,7 @@ export default function ProjectSubmitForm({ onClose }: ProjectSubmitFormProps) {
               URL de démo *
             </label>
             <input
-              type="url"
+              type="text"
               id="demolink"
               required
               value={formData.demolink}
